@@ -19,7 +19,7 @@ public class MathTest {
     @Test
     public void testAddsNegativeNumbers() {
         assertEquals(Math.addNums(-1, -2), -3);
-        assertEquals(Math.addNums(-2, 4), -2);
+        assertEquals(Math.addNums(-2, 0), -2);
         assertEquals(Math.addNums(-1000, -2233), -3233);
     }
 
