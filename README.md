@@ -4,4 +4,5 @@
   <img alt="Coverity Scan Build Status"
        src="https://scan.coverity.com/projects/10122/badge.svg"/>
 </a>
+<a href="https://codeclimate.com/github/sathyamurthyp/travis-demo"><img src="https://codeclimate.com/github/sathyamurthyp/travis-demo/badges/issue_count.svg" /></a>
 A trivial project to demonstrate Travis usage.
