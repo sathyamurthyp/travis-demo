@@ -11,7 +11,7 @@ public class MathTest {
     // Does this thing add stuff correctly?
     @Test
     public void testAddsPositiveNumbers() {
-        assertEquals(Math.addNums(1, 4), 3);
+        assertEquals(Math.addNums(1, 4), 5);
         assertEquals(Math.addNums(0, 0), 0);
         assertEquals(Math.addNums(1234, 5000), 6234);
     }
@@ -19,7 +19,7 @@ public class MathTest {
     @Test
     public void testAddsNegativeNumbers() {
         assertEquals(Math.addNums(-1, -2), -3);
-        assertEquals(Math.addNums(-2, 2), -2);
+        assertEquals(Math.addNums(-2, 0), -2);
         assertEquals(Math.addNums(-1000, -2233), -3233);
     }
 
